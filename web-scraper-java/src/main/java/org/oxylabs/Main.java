@@ -11,7 +11,7 @@ public class Main {
             Document doc = Jsoup.connect("https://hemanths05.github.io/portfolio_/").get();
 
             String title = doc.title();
-            System.out.println("Title: " + title);
+            System.out.println("Title: " + titl);
             Elements aboutUsSection = doc.select(".txtHead");
 
             if (aboutUsSection != null) {
